@@ -16,8 +16,8 @@ class Dustbin {
     translate(this.body.position.x, this.body.position.y);
     fill("red");
     rotate(angle);
-    //imageMode(CENTER);
-    //image(this.image, 0, 0, this.width, this.height);
+    imageMode(CENTER);
+    image(this.image, 0, 0, this.width, this.height);
     pop();
   }
 }
